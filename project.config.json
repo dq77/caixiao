@@ -1,8 +1,8 @@
 {
-	"miniprogramRoot": ".dist",
+	"miniprogramRoot": "dist/",
 	"projectname": "caixiao",
 	"description": "通个商城",
-	"appid": "touristappid",
+	"appid": "wx9c0345f0e22b370a",
 	"setting": {
 		"urlCheck": true,
 		"es6": false,

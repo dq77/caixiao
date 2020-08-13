@@ -1,3 +1,11 @@
+/*
+ * @Author: 刁琪
+ * @Date: 2020-08-13 13:44:18
+ * @LastEditors: わからないよう
+ */
+// eslint-disable-next-line import/no-commonjs
+const path = require('path')
+
 const config = {
   projectName: 'caixiao',
   date: '2020-8-13',
@@ -19,6 +27,9 @@ const config = {
     }
   },
   framework: 'react',
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src'),
+  },
   mini: {
     postcss: {
       pxtransform: {
